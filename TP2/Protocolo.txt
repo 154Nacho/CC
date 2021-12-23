@@ -1,0 +1,29 @@
+Protocolo UDP
+
+Source Port Destination Port
+Length 	CheckSum
+Data
+
+FSChunk Protocol
+
+Source Port Destination Port
+Length CheckSum
+ID Tipo Offset Fragmento ID_File
+Data
+
+Ping para todos
+Servidor informar gateway que está disponível 
+
+
+
+Tipos
+1: Connection Request 
+2: Connection accepted
+3: connection denied
+4: Pedido para desligar a coneção servidor-gateway
+5: Informa que pretende fazer um download 
+6: Informa que leva o pacote 
+7: Acknowledgement (gateway recebeu o pacote) 
+8: Keep Alive
+
+Analisar tamanho do ficheiro
